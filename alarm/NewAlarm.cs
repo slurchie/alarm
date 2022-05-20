@@ -18,6 +18,7 @@ namespace alarm
         }
 
         Timer timer01 = new Timer();
+        Form1 frm = new Form1();
 
         private void NewAlarm_Load(object sender, EventArgs e)
         {
@@ -45,11 +46,19 @@ namespace alarm
         {
             if(SaveButton.Enabled)
             {
-                Form1 frm = new Form1();
+               
                 frm.Show();
                 this.Hide();
                 
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frm.Show();
+            this.Hide();
+
+
         }
     }
 }

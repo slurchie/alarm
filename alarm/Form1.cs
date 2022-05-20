@@ -16,6 +16,7 @@ namespace alarm
         {
             InitializeComponent();
         }
+        public Form1 formochka;
 
         private void plusButton_Click(object sender, EventArgs e)
         {
